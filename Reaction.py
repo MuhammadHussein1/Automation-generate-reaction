@@ -157,7 +157,7 @@ def entry_CaB():      #<--- CaB (Compound and BM)
     # Choice Compound 
     BM[name_compound] = b_BM
     update_BM()
-    messagebox.showinfo('Success', f'\n{name_compound}: {b_BM: .2f}')
+    messagebox.showinfo('success input compound', f'\n{name_compound}: {b_BM: .2f}')
 
     # Auto Delete
     Ent_comp.set("")
