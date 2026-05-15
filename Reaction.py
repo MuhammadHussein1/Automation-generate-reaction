@@ -108,7 +108,7 @@ def generate_reaction():
             Produc[comp] =1 
 
     if len(React) == 0 or len(Produc) == 0:
-        messagebox.showerror('Error', 'Reactant dan Product tidak ada')
+        messagebox.showerror('Error', 'Reactant and Product do not exist')
         return
     
     try:
